@@ -7,4 +7,5 @@ RUN         wget -q https://storage.googleapis.com/kubernetes-release/release/v$
             chmod +x /usr/local/bin/kubectl && \
             apk add --no-cache --virtual .run-deps \
                 ca-certificates \
-                jq 
+                jq  \
+                bash

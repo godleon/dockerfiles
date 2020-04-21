@@ -8,6 +8,5 @@ RUN apt-get update \
     && apt-get install locales yui-compressor -y \
     && echo "en_US UTF-8" > /etc/locale.gen \
     && locale-gen en_US.UTF-8 \
-
     && apt-get clean \
     && apt-get autoremove

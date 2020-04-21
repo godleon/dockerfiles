@@ -5,4 +5,4 @@ RUN apt-get update \
     && apt-get clean \
     && apt-get autoremove
 
-ENTRYPOINT ['yui-compressor']
+ENTRYPOINT ['/bin/bash', '-c']
